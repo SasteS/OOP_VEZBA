@@ -66,7 +66,7 @@ public class PredmetManager {
 		System.out.println();
 	}
 	
-	public void GetPredmeteZaProfesora(String predmet_naziv, Profesor profesor) {
+	public void SetProfesora(String predmet_naziv, Profesor profesor) {
 		for (Predmet p : predmeti) {
 			if (p.GetNaziv().equals(predmet_naziv)) {
 				p.SetProfesor(profesor);

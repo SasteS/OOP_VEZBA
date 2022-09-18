@@ -61,7 +61,6 @@ private List<Profesor> profesori;
 		System.out.println("PROFESORI:");
 		for (String[] s : arr) {			
 			SimpleDateFormat formatter = new SimpleDateFormat("dd.MM.yyyy.");
-
 			String dateInString = s[4];
 			Date date = formatter.parse(dateInString);
 			
@@ -70,7 +69,7 @@ private List<Profesor> profesori;
 			for (Predmet p : pm.GetPredmete()) {
 				if (p.GetNaziv().equals(s[6])) {
 					profesor.AddPredmet(p);
-					pm.GetPredmeteZaProfesora(p.GetNaziv(), profesor);
+					pm.SetProfesora(p.GetNaziv(), profesor);
 				}
 			}
 			this.profesori.add(profesor);

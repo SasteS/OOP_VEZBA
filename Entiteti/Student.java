@@ -17,14 +17,18 @@ public class Student extends Osoba {
 		this.ocene = new ArrayList<Ocena>();
 	}
 	
-	public Student(String ime, String prezime, String jmbg, String index, Date datum, List<Predmet> predmeti, List<Ocena> ocene) {
+	public Student(String ime, String prezime, String jmbg, String index, Date datum) {//, List<Predmet> predmeti, List<Ocena> ocene) {
 		this.SetBool(false);
 		this.SetIme(ime);
 		this.SetPrezime(prezime);
 		this.SetJmbg(jmbg);
 		this.index = index;
 		this.datumUpisa = datum;
-		this.predmeti = predmeti;
-		this.ocene = ocene;
+		this.predmeti = new ArrayList<Predmet>();
+		this.ocene = new ArrayList<Ocena>();
+	}
+	
+	public void AddPredmet(Predmet p) {
+		predmeti.add(p);
 	}
 }

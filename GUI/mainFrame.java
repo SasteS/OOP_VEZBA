@@ -42,7 +42,7 @@ public class mainFrame {
 		PredmetManager prm = new PredmetManager();
 		prm.UcitajPredmete();
 		StudentManager sm = new StudentManager();
-		sm.UcitajStudente();		
+		sm.UcitajStudente(prm);		
 		ProfesorManager pm = new ProfesorManager();
 		pm.UcitajProfesore(prm);		
 		
