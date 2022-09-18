@@ -1,0 +1,5 @@
+Pera,Petrovic,jmbg1,index1,matematika-4;srpski-3;informatika-5;fizika-4;hemija-3
+Sima,Simic,jmbg2,index2,matematika-4;srpski-5;informatika-5;fizika-3;hemija-2
+Djura,Djuric,jmbg3,index3,matematika-3;srpski-4;informatika-3;fizika-4;hemija-3
+Mika,Mikic,jmbg4,index4,matematika-5;srpski-3;informatika-5;fizika-4;hemija-5
+Sonja,Sonjic,jmbg5,index5,matematika-4;srpski-4;informatika-5;fizika-5;hemija-5

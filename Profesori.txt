@@ -1,0 +1,5 @@
+Aki,Bljaki,jmbg1,licna1,12.02.2022.,NOV,matematika
+Paja,Pajic,jmbg2,licna2,12.02.2022.,DOMACI,srpski
+Dusko,Vranic,jmbg3,licna3,12.02.2022.,NOV,informatika
+Sima,Simic,jmbg4,licna4,12.02.2022.,MATORI,fizika
+Sanja,Sanjic,jmbg5,licna5,12.02.2022.,MATORI,hemija

@@ -1,0 +1,5 @@
+1234,matematika,PRVI,Aki
+2341,srpski,DRUGI,Paja
+2134,informatika,DRUGI,Dusko
+3123,fizika,PRVI,Sima
+3215,hemija,PRVI,Sanja
